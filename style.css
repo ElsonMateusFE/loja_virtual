@@ -43,14 +43,14 @@ header a:hover {
 }
 
 main {
-    max-width: 480px;
+    max-width: 490px;
     padding: 0px 10px;
 }
 
 section#sobre-a-loja div.imagem img {
     display: block;
     margin: 4vh auto;
-    max-width: 450px;
+    max-width: 420px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.333);
 }
 
