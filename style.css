@@ -43,19 +43,22 @@ header a:hover {
 }
 
 main {
-    max-width: 767px;
-    padding: 0px 10px;
+    max-width: 75%;
+    margin: 20px auto;
+}
+
+section#sobre-a-loja {
+    align-items: flex-start;
+    display: flex;
 }
 
 section#sobre-a-loja div.imagem img {
-    display: block;
-    margin: 4vh auto;
-    max-width: 400px;
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.333);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.199);
+    width: 500px;
 }
 
 section#sobre-a-loja div.info {
-    margin: 10px 5px;
+    margin: 0px 20px;
 }
 
 section#sobre-a-loja div.info h2 {
@@ -64,33 +67,38 @@ section#sobre-a-loja div.info h2 {
 }
 
 section#sobre-a-loja div.info p {
-    margin-top: 15px;
     text-align: justify;
 }
 
 section#produtos {
-    margin: 5vh auto;
+    line-height: 1.5em;
 }
 
 section#produtos h2 {
-    border-bottom: 2px solid var(--cor02);
     color: var(--cor01);
+    border-bottom: 2px solid var(--cor02);
+    margin: 20px 0px;
+}
+
+section#produtos div.itens {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+}
+
+section#produtos div.itens article {
+    margin: 20px auto;
+}
+
+section#produtos div.itens article h3 {
+    margin: 10px 0px;
+}
+
+section#produtos div.itens article img {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.199);
     display: block;
-}
-
-section#produtos article {
-    line-height: 2.2em;
-}
-
-section#produtos article h3 {
-    margin-top: 10px;
-    font-size: 1.7em;
-}
-
-section#produtos article h4 {
-    border-bottom: 2px solid var(--cor01);
-    display: inline;
-    font-size: 1.4em;
+    margin: auto;
+    width: 100%;
 }
 
 section#produtos article button {
@@ -113,20 +121,8 @@ section#produtos article button:active {
     background-color: rgb(75, 179, 79);
 }
 
-section#produtos div.itens article {
-    margin: 20px auto;
-    width: 430px;
-}
-
 section#produtos article span#carrinho {
     vertical-align: bottom;
-}
-
-section#produtos div.itens img {
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.250);
-    display: block;
-    margin: 40px auto;
-    width: 100%;
 }
 
 footer {
