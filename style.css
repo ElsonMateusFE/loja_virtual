@@ -90,8 +90,16 @@ section#produtos div.itens article {
     margin: 20px auto;
 }
 
+section#produtos div.itens {
+    line-height: 1.5em;
+}
+
 section#produtos div.itens article h3 {
-    margin: 10px 0px;
+    margin-top: 10px;
+}
+
+section#produtos div.itens article p {
+    margin-bottom: 10px;
 }
 
 section#produtos div.itens article img {
